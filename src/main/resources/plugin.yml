@@ -1,0 +1,13 @@
+name: CameraSystemPlugin
+version: 1.0
+main: pl.abstractserver.camera.CameraSystemPlugin
+api-version: '1.21'
+author: Pcraft600
+description: Abstrakcyjny system 6 kamer wełnianych sterowanych przez GUI!
+commands:
+  zestaw:
+    description: Daje zestaw 6 kamer oraz butelkę GUI.
+    permission: camera.use
+  c:
+    description: Powrót z trybu podglądu kamer na oryginalną pozycję.
+    permission: camera.use
